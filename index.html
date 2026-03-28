@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mitchell Investments & Holdings, LLC — South Georgia Land</title>
+  <meta name="description" content="Mitchell Investments & Holdings, LLC owns, improves, and acquires South Georgia land for yearly income and family legacy. Degreed foresters, 100+ years combined experience.">
+  <meta property="og:title" content="Mitchell Investments & Holdings, LLC">
+  <meta property="og:description" content="South Georgia land ownership, improvement, and acquisition for yearly income and family legacy.">
+  <meta property="og:type" content="website">
+  <link rel="preload" href="./assets/hero.jpg" as="image">
+  <link href="https://api.fontshare.com/v2/css?f[]=zodiak@400,500,600,700&f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./base.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <a href="#main" class="sr-only">Skip to content</a>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#home" class="logo" aria-label="MIH Land — Home">
+        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="36" height="36" rx="4" fill="currentColor" opacity="0.08"/>
+          <path d="M6 28V14l6-6 6 6v14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          <path d="M18 28V14l6-6 6 6v14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          <path d="M6 28h24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <line x1="12" y1="20" x2="12" y2="28" stroke="var(--color-accent)" stroke-width="2"/>
+          <line x1="24" y1="20" x2="24" y2="28" stroke="var(--color-accent)" stroke-width="2"/>
+        </svg>
+        <div class="logo-text">
+          MIH Land
+          <span>Mitchell Investments & Holdings</span>
+        </div>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Main navigation">
+        <a href="#home" class="active" data-page="home">Home</a>
+        <a href="#strategy" data-page="strategy">Our Strategy</a>
+        <a href="#projects" data-page="projects">Projects</a>
+        <a href="#buy-land" data-page="buy-land">We Buy Land</a>
+        <a href="#stewardship" data-page="stewardship">Stewardship</a>
+        <a href="#team" data-page="team">Our Team</a>
+        <a href="#contact" data-page="contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="theme-toggle" data-theme-toggle aria-label="Switch to dark mode">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button class="nav-mobile-toggle" aria-label="Open menu" onclick="document.getElementById('mobileNav').classList.add('open')">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MOBILE NAV -->
+  <nav id="mobileNav" class="nav-mobile" aria-label="Mobile navigation">
+    <button class="nav-mobile-close" aria-label="Close menu" onclick="document.getElementById('mobileNav').classList.remove('open')">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+    </button>
+    <a href="#home" onclick="closeMobile()">Home</a>
+    <a href="#strategy" onclick="closeMobile()">Our Strategy</a>
+    <a href="#projects" onclick="closeMobile()">Projects</a>
+    <a href="#buy-land" onclick="closeMobile()">We Buy Land</a>
+    <a href="#stewardship" onclick="closeMobile()">Stewardship</a>
+    <a href="#team" onclick="closeMobile()">Our Team</a>
+    <a href="#contact" onclick="closeMobile()">Contact</a>
+  </nav>
+
+  <main id="main">
+
+    <!-- ============================== -->
+    <!-- PAGE: HOME                     -->
+    <!-- ============================== -->
+    <div class="page" id="page-home">
+
+      <!-- Hero -->
+      <section class="hero">
+        <div class="hero-bg">
+          <img src="./assets/hero.jpg" alt="Aerial view of South Georgia rural landscape with pine forests and pasture at golden hour" width="1920" height="1080">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="section-label" style="color: var(--color-accent);">South Georgia Land Investment</p>
+          <h1>Building a Family Land Legacy in South Georgia.</h1>
+          <p class="subtitle">Mitchell Investments & Holdings, LLC buys, manages, and improves rural land so it produces annual income today and remains healthy for future generations.</p>
+          <div class="btn-group">
+            <a href="#projects" class="btn btn-accent">See Our Land Projects</a>
+            <a href="#buy-land" class="btn btn-outline">Selling Land?</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- What We Do -->
+      <section class="section">
+        <div class="section-inner">
+          <div class="section-header">
+            <p class="section-label">What We Do</p>
+            <h2 class="section-title">Own. Improve. Acquire.</h2>
+            <p class="section-subtitle">We combine hands-on experience in timber, pine straw, cattle, and land projects with a disciplined, numbers-driven approach to returns and risk.</p>
+          </div>
+          <div class="card-grid card-grid--3 reveal">
+            <div class="card">
+              <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21h18M5 21V7l7-4 7 4v14"/><path d="M9 21v-6h6v6"/></svg>
+              <h3>Own & Hold</h3>
+              <p>Long-term holdings of timber, pasture, and mixed-use land across South Georgia. We think in decades, not quarters.</p>
+            </div>
+            <div class="card">
+              <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+              <h3>Improve & Manage</h3>
+              <p>Mulching, fencing, reforestation, prescribed fire, road building, and wildlife management. We do the work with our own team.</p>
+            </div>
+            <div class="card">
+              <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/><path d="M11 8v6M8 11h6"/></svg>
+              <h3>Acquire</h3>
+              <p>Actively looking for off-market timber, farm, and mixed-use land across South Georgia and surrounding counties.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Where We Work -->
+      <section class="section section--alt">
+        <div class="section-inner">
+          <div class="two-col reveal">
+            <div class="two-col-content">
+              <p class="section-label">Where We Work</p>
+              <h2>South Georgia and the Surrounding Region</h2>
+              <p>We focus on South Georgia and the surrounding regional market. Our team lives and works here. We know the ground, the weather, the timber markets, and the people.</p>
+              <ul class="feature-list" style="margin-top: var(--space-4);">
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Worth County, Crisp County, Lee County
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Dooly County, Turner County, Wilcox County
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Surrounding counties and South Georgia region
+                </li>
+              </ul>
+            </div>
+            <div class="two-col-media">
+              <img src="./assets/strategy.jpg" alt="Managed longleaf pine stand in South Georgia" loading="lazy" width="1200" height="900">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Stats -->
+      <section class="section section--dark">
+        <div class="section-inner">
+          <div class="stats-bar reveal">
+            <div class="stat">
+              <div class="stat-number">100+</div>
+              <div class="stat-label">Years Combined Experience</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">In-House</div>
+              <div class="stat-label">Management Team</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">Degreed</div>
+              <div class="stat-label">Foresters on Staff</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">Active</div>
+              <div class="stat-label">Land Buyer</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="cta-section">
+        <div class="section-inner reveal">
+          <h2>Thinking About Selling Land?</h2>
+          <p>If you own land in South Georgia or know of a tract that may be available, we'd be glad to talk. No pressure, no obligations.</p>
+          <div class="btn-group" style="justify-content: center;">
+            <a href="#buy-land" class="btn btn-accent">Tell Us About Your Land</a>
+            <a href="#contact" class="btn btn-outline">Contact Us</a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ============================== -->
+    <!-- PAGE: OUR STRATEGY             -->
+    <!-- ============================== -->
+    <div class="page" id="page-strategy" style="display:none;">
+
+      <section class="page-header">
+        <div class="page-header-inner">
+          <p class="section-label">Our Approach</p>
+          <h1>Our Land Strategy</h1>
+          <p>We own and operate rural properties that produce annual income while improving in condition and value over time. Every decision is filtered through one question: will this land be better, more productive, and more valuable in twenty years than it is today?</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-inner">
+          <div class="two-col reveal">
+            <div class="two-col-content">
+              <h2>How We Think About Land</h2>
+              <p>Mitchell Investments & Holdings, LLC is a South Georgia land investment company focused on owning, managing, and improving rural properties for long-term income and generational ownership.</p>
+              <p>We combine hands-on experience in timber, pine straw, cattle, and land projects with a disciplined, numbers-driven approach to returns and risk. Our in-house management team includes degreed foresters and over 100 years of combined experience.</p>
+            </div>
+            <div class="two-col-media">
+              <img src="./assets/strategy.jpg" alt="Managed pine timber in South Georgia" loading="lazy" width="1200" height="900">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt">
+        <div class="section-inner">
+          <div class="section-header">
+            <p class="section-label">Investment Thesis</p>
+            <h2 class="section-title">Acquire, Improve, Hold, Repeat</h2>
+          </div>
+          <div class="card-grid card-grid--2 reveal">
+            <div class="card">
+              <h3>Acquire</h3>
+              <p>We target undervalued or underperforming timber, pasture, and mixed-use tracts across South Georgia. We deal directly with landowners, heirs, and institutions — no brokers required unless helpful.</p>
+            </div>
+            <div class="card">
+              <h3>Improve</h3>
+              <p>Within 12 months of acquisition, we identify and execute practical improvement projects: fencing, mulching, road building, reforestation, prescribed fire, and infrastructure. Every project is designed to raise income or reduce long-term cost.</p>
+            </div>
+            <div class="card">
+              <h3>Hold</h3>
+              <p>We are not flippers. We hold land long-term, letting timber grow, reinvesting income back into the property, and managing for sustained annual yield from pine straw, timber, cattle, and leases.</p>
+            </div>
+            <div class="card">
+              <h3>Repeat</h3>
+              <p>Income from existing holdings funds the next acquisition. Each property strengthens the portfolio and the family legacy.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-inner">
+          <div class="section-header">
+            <p class="section-label">Revenue Streams</p>
+            <h2 class="section-title">How Our Land Produces Income</h2>
+          </div>
+          <div class="card-grid card-grid--3 reveal">
+            <div class="card">
+              <h3>Pine Straw</h3>
+              <p>Annual harvest from managed longleaf and slash pine stands. Steady, recurring income with low overhead.</p>
+            </div>
+            <div class="card">
+              <h3>Timber</h3>
+              <p>Thinning and selective harvest on a planned rotation. Long-term value growth in the standing timber base.</p>
+            </div>
+            <div class="card">
+              <h3>Cattle</h3>
+              <p>Registered Angus cattle on improved pasture. Integrated with land management for year-round income.</p>
+            </div>
+            <div class="card">
+              <h3>Hunting Leases</h3>
+              <p>Managed wildlife habitat with responsible hunting access generates supplemental income.</p>
+            </div>
+            <div class="card">
+              <h3>Row Crop</h3>
+              <p>Selective row crop on appropriate land types where soil and water conditions support it.</p>
+            </div>
+            <div class="card">
+              <h3>Land Value</h3>
+              <p>Improvements compound. A property that produces multiple income streams and has been maintained is worth significantly more than when we acquired it.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ============================== -->
+    <!-- PAGE: PROJECTS                 -->
+    <!-- ============================== -->
+    <div class="page" id="page-projects" style="display:none;">
+
+      <section class="page-header">
+        <div class="page-header-inner">
+          <p class="section-label">Our Work</p>
+          <h1>Projects & Improvements</h1>
+          <p>On each property, we follow the same core approach: understand what the land is today, design practical projects that raise income and improve condition, and execute with our in-house team.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-inner">
+          <div class="card-grid card-grid--2 reveal">
+            <div class="project-card">
+              <img src="./assets/projects.jpg" alt="Land improvement project with new fence installation" loading="lazy" width="1200" height="675">
+              <div class="project-card-body">
+                <h3>South Georgia Timber & Cattle Tract</h3>
+                <p>Reclaimed pasture, cleaned up storm damage, improved fencing, and set the property up for healthier timber and more efficient cattle operations.</p>
+                <div class="project-tags">
+                  <span class="project-tag">Fencing</span>
+                  <span class="project-tag">Mulching</span>
+                  <span class="project-tag">Pasture</span>
+                  <span class="project-tag">Timber</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <img src="./assets/strategy.jpg" alt="Managed pine plantation with healthy understory" loading="lazy" width="1200" height="675">
+              <div class="project-card-body">
+                <h3>Longleaf Pine Reforestation</h3>
+                <p>Replanted cutover acres with longleaf pine for long-term timber value and pine straw income. Prepared fire breaks for future prescribed burns.</p>
+                <div class="project-tags">
+                  <span class="project-tag">Reforestation</span>
+                  <span class="project-tag">Pine Straw</span>
+                  <span class="project-tag">Fire Breaks</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt">
+        <div class="section-inner">
+          <div class="section-header">
+            <p class="section-label">What We Do on the Ground</p>
+            <h2 class="section-title">Types of Improvements</h2>
+          </div>
+          <div class="card-grid card-grid--3 reveal">
+            <div class="card"><h3>Mulching & Clearing</h3><p>Brush removal, understory clearing, and land reclamation to restore productive use.</p></div>
+            <div class="card"><h3>Fencing</h3><p>Old fence removal, new fence installation for cattle containment, wildlife management, and property boundaries.</p></div>
+            <div class="card"><h3>Reforestation</h3><p>Longleaf pine planting, site prep, and seedling management for next-generation timber and pine straw income.</p></div>
+            <div class="card"><h3>Prescribed Fire</h3><p>Controlled burns to maintain forest health, reduce wildfire risk, and encourage pine straw growth.</p></div>
+            <div class="card"><h3>Road Building</h3><p>Interior roads, fire breaks, and access improvements for timber operations and property management.</p></div>
+            <div class="card"><h3>Erosion & Water</h3><p>Row-crop erosion control, drainage improvements, and water management projects.</p></div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ============================== -->
+    <!-- PAGE: WE BUY LAND             -->
+    <!-- ============================== -->
+    <div class="page" id="page-buy-land" style="display:none;">
+
+      <section class="page-header">
+        <div class="page-header-inner">
+          <p class="section-label">Land Acquisition</p>
+          <h1>We Buy Land in South Georgia</h1>
+          <p>If you own timber, farm, or rural land in South Georgia and are thinking about selling, we'd like to talk. We buy land directly, with no pressure, no middlemen, and no obligations.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-inner">
+          <div class="two-col two-col--reverse reveal">
+            <div class="two-col-content">
+              <h2>Why Sell to Us?</h2>
+              <p>We are not developers. We do not subdivide, clear-cut, or flip land. We buy and hold land for decades, improving it and managing it the way it should be managed.</p>
+              <ul class="feature-list" style="margin-top: var(--space-4);">
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Direct purchase — no brokers needed
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Fair, numbers-based offers
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Flexible timelines and terms
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Your land will be managed and improved, not stripped
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Confidential and professional process
+                </li>
+              </ul>
+            </div>
+            <div class="two-col-media">
+              <img src="./assets/stewardship.jpg" alt="South Georgia pastoral land with oak tree at sunrise" loading="lazy" width="1920" height="1080">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt">
+        <div class="section-inner">
+          <div class="section-header">
+            <p class="section-label">What We're Looking For</p>
+            <h2 class="section-title">Land We Buy</h2>
+          </div>
+          <div class="card-grid card-grid--3 reveal">
+            <div class="card"><h3>Timberland</h3><p>Pine plantations, mixed hardwood-pine, managed or unmanaged timber tracts of 50+ acres.</p></div>
+            <div class="card"><h3>Pasture & Farm</h3><p>Open pasture, cattle land, hay fields, and row-crop land in South Georgia counties.</p></div>
+            <div class="card"><h3>Mixed Use</h3><p>Tracts with a combination of timber, pasture, and open land. We see opportunity in diversity.</p></div>
+            <div class="card"><h3>Inherited Land</h3><p>If your family has inherited land and isn't sure what to do with it, we can walk you through options — including a fair purchase offer.</p></div>
+            <div class="card"><h3>Off-Market</h3><p>Land that hasn't been listed publicly. We deal directly with landowners and appreciate a quiet, confidential transaction.</p></div>
+            <div class="card"><h3>Underperforming</h3><p>Land that isn't producing income but could be. We specialize in turning around neglected tracts with practical improvements.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Form for Selling -->
+      <section class="section">
+        <div class="section-inner" style="max-width: var(--content-default);">
+          <div class="section-header text-center">
+            <p class="section-label">Get In Touch</p>
+            <h2 class="section-title" style="margin-inline: auto;">Tell Us About Your Land</h2>
+            <p class="section-subtitle" style="margin-inline: auto;">Fill out the form below and we'll be in touch. No pressure, no obligations.</p>
+          </div>
+          <form class="form-grid reveal" onsubmit="event.preventDefault(); alert('Thank you. We will be in touch soon.');">
+            <div class="form-group">
+              <label for="sell-name">Your Name</label>
+              <input type="text" id="sell-name" name="name" placeholder="John Smith" required>
+            </div>
+            <div class="form-group">
+              <label for="sell-phone">Phone</label>
+              <input type="tel" id="sell-phone" name="phone" placeholder="(229) 555-0100">
+            </div>
+            <div class="form-group">
+              <label for="sell-email">Email</label>
+              <input type="email" id="sell-email" name="email" placeholder="john@example.com">
+            </div>
+            <div class="form-group">
+              <label for="sell-county">County</label>
+              <input type="text" id="sell-county" name="county" placeholder="Worth County">
+            </div>
+            <div class="form-group">
+              <label for="sell-acreage">Acreage</label>
+              <input type="text" id="sell-acreage" name="acreage" placeholder="150 acres">
+            </div>
+            <div class="form-group">
+              <label for="sell-type">Type of Land</label>
+              <select id="sell-type" name="type">
+                <option value="">Select...</option>
+                <option>Timber</option>
+                <option>Pasture</option>
+                <option>Row Crop</option>
+                <option>Hunting</option>
+                <option>Mixed Use</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group full-width">
+              <label for="sell-message">Tell us about the land, how long it's been in your family, and anything we should know.</label>
+              <textarea id="sell-message" name="message" rows="5" placeholder=""></textarea>
+            </div>
+            <div class="form-group full-width">
+              <button type="submit" class="btn btn-primary" style="width: fit-content;">Submit Property Information</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <!-- ============================== -->
+    <!-- PAGE: STEWARDSHIP & LEGACY     -->
+    <!-- ============================== -->
+    <div class="page" id="page-stewardship" style="display:none;">
+
+      <section class="page-header">
+        <div class="page-header-inner">
+          <p class="section-label">Our Purpose</p>
+          <h1>Stewardship & Legacy</h1>
+          <p>We believe the land was given to us to steward, not just to own. Every property we hold is managed with the goal of leaving it better than we found it — for our family and for the next generation.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-inner">
+          <div class="two-col reveal">
+            <div class="two-col-content">
+              <h2>Why We Do This</h2>
+              <p>Mitchell Investments & Holdings exists for one reason: to build a land-based family legacy that produces income today and holds value for decades to come.</p>
+              <p>We reinvest a portion of our annual land income back into the property every year. That means healthier forests, better fencing, cleaner roads, and stronger soil — compounding improvements that make the land more productive and more valuable with time.</p>
+              <p>We are not building this for a quarterly report. We are building it for our children and their children.</p>
+            </div>
+            <div class="two-col-media">
+              <img src="./assets/stewardship.jpg" alt="Morning mist over South Georgia pasture with old oak tree" loading="lazy" width="1920" height="1080">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt">
+        <div class="section-inner">
+          <div class="section-header">
+            <p class="section-label">Our Principles</p>
+            <h2 class="section-title">How We Steward the Land</h2>
+          </div>
+          <div class="card-grid card-grid--2 reveal">
+            <div class="card">
+              <h3>Reinvest Income</h3>
+              <p>A fixed portion of every dollar the land earns goes back into the property. Roads, fencing, reforestation, fire management — the land gets better every year.</p>
+            </div>
+            <div class="card">
+              <h3>Think Long-Term</h3>
+              <p>We plant trees that won't be harvested for 25 years. We build fences meant to last a generation. Short-term thinking has no place in land ownership.</p>
+            </div>
+            <div class="card">
+              <h3>Manage Responsibly</h3>
+              <p>Prescribed fire, selective harvest, wildlife habitat — we use proven forestry and land management practices that keep the ecosystem healthy and productive.</p>
+            </div>
+            <div class="card">
+              <h3>Build for Family</h3>
+              <p>Every acre we hold, every improvement we make, and every dollar we reinvest is building something that outlasts us. That's the point.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ============================== -->
+    <!-- PAGE: OUR TEAM                 -->
+    <!-- ============================== -->
+    <div class="page" id="page-team" style="display:none;">
+
+      <section class="page-header">
+        <div class="page-header-inner">
+          <p class="section-label">Who We Are</p>
+          <h1>Our Management Team</h1>
+          <p>Mitchell Investments & Holdings operates with an in-house management team that includes degreed foresters and over 100 years of combined experience in forestry, land management, agriculture, and cattle operations.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-inner">
+          <div class="team-grid reveal">
+            <div class="team-card">
+              <div class="team-avatar">MM</div>
+              <h3>Mitch Mitchell</h3>
+              <p class="role">Founder & Managing Partner</p>
+              <p>Leads acquisition, strategy, and day-to-day operations across all MIH Land holdings.</p>
+            </div>
+            <div class="team-card">
+              <div class="team-avatar">FM</div>
+              <h3>Forestry Management</h3>
+              <p class="role">In-House Forestry Team</p>
+              <p>Degreed foresters managing timber inventory, harvest planning, reforestation, and prescribed fire programs.</p>
+            </div>
+            <div class="team-card">
+              <div class="team-avatar">OPS</div>
+              <h3>Operations</h3>
+              <p class="role">Land & Cattle Operations</p>
+              <p>Fencing, mulching, road building, cattle management, and day-to-day property operations across our holdings.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt">
+        <div class="section-inner">
+          <div class="section-header">
+            <p class="section-label">Expertise</p>
+            <h2 class="section-title">What Our Team Does</h2>
+          </div>
+          <div class="card-grid card-grid--3 reveal">
+            <div class="card"><h3>Forestry</h3><p>Timber cruising, harvest planning, longleaf reforestation, prescribed fire management.</p></div>
+            <div class="card"><h3>Pine Straw</h3><p>Harvest scheduling, stand management, and pine straw income optimization.</p></div>
+            <div class="card"><h3>Cattle</h3><p>Registered Angus herd management, pasture rotation, fencing, and livestock operations.</p></div>
+            <div class="card"><h3>Land Projects</h3><p>Mulching, clearing, road building, erosion control, and infrastructure improvements.</p></div>
+            <div class="card"><h3>Wildlife</h3><p>Habitat planning, food plots, controlled access, and wildlife management.</p></div>
+            <div class="card"><h3>Row Crop</h3><p>Soil management, crop planning, and erosion control on appropriate land types.</p></div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ============================== -->
+    <!-- PAGE: CONTACT                  -->
+    <!-- ============================== -->
+    <div class="page" id="page-contact" style="display:none;">
+
+      <section class="page-header">
+        <div class="page-header-inner">
+          <p class="section-label">Get In Touch</p>
+          <h1>Contact Us</h1>
+          <p>If you own land in South Georgia, know of a tract that may be available, or want to discuss a project on your property, we'd be glad to talk.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-inner" style="max-width: var(--content-default);">
+          <div class="two-col" style="align-items: flex-start;">
+            <div>
+              <form class="form-grid reveal" onsubmit="event.preventDefault(); alert('Thank you for reaching out. We will be in touch.');">
+                <div class="form-group">
+                  <label for="c-name">Name</label>
+                  <input type="text" id="c-name" name="name" required>
+                </div>
+                <div class="form-group">
+                  <label for="c-phone">Phone</label>
+                  <input type="tel" id="c-phone" name="phone">
+                </div>
+                <div class="form-group">
+                  <label for="c-email">Email</label>
+                  <input type="email" id="c-email" name="email">
+                </div>
+                <div class="form-group">
+                  <label for="c-county">County</label>
+                  <input type="text" id="c-county" name="county">
+                </div>
+                <div class="form-group full-width">
+                  <label for="c-interest">What are you looking to do?</label>
+                  <select id="c-interest" name="interest">
+                    <option value="">Select...</option>
+                    <option>Sell land</option>
+                    <option>Discuss improvements</option>
+                    <option>Partnership</option>
+                    <option>General inquiry</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+                <div class="form-group full-width">
+                  <label for="c-message">Message</label>
+                  <textarea id="c-message" name="message" rows="5" placeholder="Tell us how we can help."></textarea>
+                </div>
+                <div class="form-group full-width">
+                  <button type="submit" class="btn btn-primary" style="width: fit-content;">Send Message</button>
+                </div>
+              </form>
+            </div>
+            <div class="reveal" style="padding-top: var(--space-4);">
+              <h3 style="margin-bottom: var(--space-4);">Direct Contact</h3>
+              <p style="color: var(--color-text-muted); margin-bottom: var(--space-6);">Prefer to talk first? Reach us directly.</p>
+              <div style="display: flex; flex-direction: column; gap: var(--space-4);">
+                <div style="display: flex; align-items: center; gap: var(--space-3);">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary)" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                  <span style="font-size: var(--text-sm); color: var(--color-text-muted);">(229) 463-0209</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: var(--space-3);">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary)" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                  <span style="font-size: var(--text-sm); color: var(--color-text-muted);">sales@mitchellpinestraw.com</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: var(--space-3);">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary)" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  <span style="font-size: var(--text-sm); color: var(--color-text-muted);">Sylvester, Georgia</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="#home" class="logo">
+          <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="32" height="32">
+            <rect width="36" height="36" rx="4" fill="currentColor" opacity="0.1"/>
+            <path d="M6 28V14l6-6 6 6v14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            <path d="M18 28V14l6-6 6 6v14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            <path d="M6 28h24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <div class="logo-text">MIH Land</div>
+        </a>
+        <p>Mitchell Investments & Holdings, LLC. South Georgia land ownership, improvement, and acquisition for yearly income and family legacy.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Navigate</h4>
+        <a href="#home">Home</a>
+        <a href="#strategy">Our Strategy</a>
+        <a href="#projects">Projects</a>
+        <a href="#buy-land">We Buy Land</a>
+        <a href="#stewardship">Stewardship</a>
+      </div>
+      <div class="footer-links">
+        <h4>Contact</h4>
+        <a href="#team">Our Team</a>
+        <a href="#contact">Contact Us</a>
+        <a href="tel:+12294630209" target="_blank" rel="noopener noreferrer">(229) 463-0209</a>
+        <a href="mailto:sales@mitchellpinestraw.com" target="_blank" rel="noopener noreferrer">sales@mitchellpinestraw.com</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Mitchell Investments & Holdings, LLC. All rights reserved.</span>
+      <span>Sylvester, Georgia</span>
+    </div>
+  </footer>
+
+  <script>
+    // ========== ROUTING ==========
+    function showPage(pageId) {
+      document.querySelectorAll('.page').forEach(p => p.style.display = 'none');
+      const target = document.getElementById('page-' + pageId);
+      if (target) target.style.display = 'block';
+
+      // Update active nav link
+      document.querySelectorAll('.nav-desktop a').forEach(a => {
+        a.classList.toggle('active', a.getAttribute('data-page') === pageId);
+      });
+
+      // Scroll to top
+      window.scrollTo({ top: 0, behavior: 'instant' });
+
+      // Re-trigger reveal animations
+      setTimeout(() => {
+        document.querySelectorAll('.page[style*="block"] .reveal').forEach(el => {
+          el.classList.remove('visible');
+          void el.offsetWidth;
+          observer.observe(el);
+        });
+      }, 50);
+    }
+
+    function handleHash() {
+      const hash = window.location.hash.replace('#', '') || 'home';
+      showPage(hash);
+    }
+
+    window.addEventListener('hashchange', handleHash);
+    window.addEventListener('DOMContentLoaded', handleHash);
+
+    function closeMobile() {
+      document.getElementById('mobileNav').classList.remove('open');
+    }
+
+    // ========== THEME TOGGLE ==========
+    (function(){
+      const t = document.querySelector('[data-theme-toggle]');
+      const r = document.documentElement;
+      let d = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      r.setAttribute('data-theme', d);
+      if (t) {
+        updateToggleIcon();
+        t.addEventListener('click', () => {
+          d = d === 'dark' ? 'light' : 'dark';
+          r.setAttribute('data-theme', d);
+          t.setAttribute('aria-label', 'Switch to ' + (d === 'dark' ? 'light' : 'dark') + ' mode');
+          updateToggleIcon();
+        });
+      }
+      function updateToggleIcon() {
+        if (!t) return;
+        t.innerHTML = d === 'dark'
+          ? '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>'
+          : '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+      }
+    })();
+
+    // ========== SCROLL REVEAL ==========
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
